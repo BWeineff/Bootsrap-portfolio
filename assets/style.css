@@ -1,8 +1,26 @@
 #image-resize {
     align-self: center;
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
 }
 .container {
     border: none;
+}
+#image-resize-small {
+    max-width: 10%;
+    height: auto;
+    
+}
+.image-center {
+    text-align: center;
+}
+html {
+    background-color: bisque;
+}
+body {
+    background-color: rgb(148, 136, 120);
+}
+.form-group {
+    background: rgb(236, 213, 213);
+    z-index: 99999;
 }
